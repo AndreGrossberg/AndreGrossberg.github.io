@@ -1,0 +1,51 @@
+/* Your Styles Here */
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #f5f5dc;
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+   
+
+    #AndreProfile {
+        width: 200x;
+        height: 200px;
+        border-radius: 20px;
+        border: 5px solid rgb(197, 183, 226)
+    }
+
+    #AboutMe{
+        border: 5px solid rgb(197, 183, 226);
+        background-color: #e2e2cc;
+        padding: .5rem;
+        border-radius: 20px;
+        font-weight: 200;
+
+    }
+
+    .profile {
+        width: 400px;
+    }
+
+    #ipButton{
+        background-color: #e2e2cc;
+        border: 5px solid rgb(197, 183, 226);
+        font-weight: bold;
+        border-radius: 20px;
+
+    }
+
+    #ipButton:hover {
+        background-color: #b6b6a5;
+    }
+
+    border: 5px solid rgb(197, 183, 226);
+    margin: 2rem 20rem 2rem 20rem;
+}
