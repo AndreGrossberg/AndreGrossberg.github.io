@@ -34,18 +34,40 @@ body{
         width: 400px;
     }
 
-    #ipButton{
-        background-color: #e2e2cc;
-        border: 5px solid rgb(197, 183, 226);
-        font-weight: bold;
-        border-radius: 20px;
 
+    #grocery_input {
+        margin: 3px;
+        background-color: aliceblue;
+        border: 2px solid black;
+        
     }
 
-    #ipButton:hover {
-        background-color: #b6b6a5;
+    #grocery_input:hover {
+        background-color: rgb(220, 227, 234);
     }
 
-    border: 5px solid rgb(197, 183, 226);
-    margin: 2rem 20rem 2rem 20rem;
+    #submit {
+        border: 2px solid black;
+        background-color: aliceblue;
+    }
+    #submit:hover {
+        background-color: rgb(220, 227, 234);
+    }
+
+    #div {
+        border: 5px solid black;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .grocery_item {
+        border: 2px solid black;
+        display: inline-block;
+        padding: 3px;
+        margin-bottom: 4px;
+        margin-right: 2px;
+        margin-left: 2px;
+        background-color: aliceblue;
+    }
 }

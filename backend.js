@@ -1,10 +1,26 @@
+let submitButton = document.getElementById("submit")
+let input = document.getElementById("grocery_input")
+let groceryList = document.getElementById("grocery_list")
 
 
-ipButton.addEventListener("click", function() {
-    fetch('https://api.ipify.org?format=json').then(response => response.json()).then(data => {
-        document.getElementById('ipAddress').innerText = 'Your IP Address: ' + data.ip;
-    })
-    .catch(error => {
-        console.error('Error fetching IP address:', error);
-    });
+submitButton.addEventListener("click", function() {
+    saveInput()
 })
+
+input.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        saveInput()
+    }
+})
+function saveInput() {
+    let el = document.createElement("p")
+    el.textContent = input.value
+    el.id = input.value
+    el.className = "grocery_item"
+    groceryList.appendChild(el)
+    input.value = ""
+}
+
+
+
+
